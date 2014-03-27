@@ -1,0 +1,3 @@
+[submodule "NSDate+HumanInterval"]
+	path = NSDate+HumanInterval
+	url = https://orlandoaleman@github.com/orlandoaleman/NSDate-HumanInterval.git
