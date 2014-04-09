@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Closett. All rights reserved.
 //
 
-#import "UIBarButtonItem+Custom.h"
+#import "UIBarButtonItem+Extras.h"
 
 @implementation UIBarButtonItem (Extras)
 
