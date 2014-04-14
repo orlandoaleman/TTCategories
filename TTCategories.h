@@ -12,7 +12,7 @@
 #import "UIImage+Orientation.h"
 #import "UIView+Extras.h"
 #import "UIBarButtonItem+Extras.h"
-
+#import "UIViewController+Extras.h"
 
 #if defined(__has_include)
 #if __has_include(<Parse/Parse.h>)
