@@ -13,7 +13,7 @@
 - (NSArray *)arrayByRemovingObject:(id)obj
 {
     NSArray *newArray = [NSArray array];
-    int indexOfObj = [self indexOfObject:obj];
+    NSUInteger indexOfObj = [self indexOfObject:obj];
 
     newArray = [self subarrayWithRange:NSMakeRange(0, indexOfObj)];
     newArray = [newArray arrayByAddingObjectsFromArray:[self subarrayWithRange:NSMakeRange(indexOfObj + 1, self.count - indexOfObj - 1)]];
