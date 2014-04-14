@@ -1,9 +1,9 @@
 //
 //  NSString+Extras.h
-//  closett
+//  orlandoaleman.com
 //
-//  Created by Orlando Aleman Ortiz on 06/12/12.
-//  Copyright (c) 2012 Closett. All rights reserved.
+//  Created by Orlando Aleman Ortiz on 27/03/14.
+//  Copyright (c) 2014 orlandoaleman.com. All rights reserved.
 //
 
 @interface NSString (Extras)

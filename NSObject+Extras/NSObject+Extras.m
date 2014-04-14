@@ -1,9 +1,9 @@
 //
 //  NSObject+Extras.m
-//  closett
+//  orlandoaleman.com
 //
-//  Created by Orlando Aleman Ortiz on 09/04/14.
-//  Copyright (c) 2014 closett.com. All rights reserved.
+//  Created by Orlando Aleman Ortiz on 27/03/14.
+//  Copyright (c) 2014 orlandoaleman.com. All rights reserved.
 //
 
 #import "NSObject+Extras.h"

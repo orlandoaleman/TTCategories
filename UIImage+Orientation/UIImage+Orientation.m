@@ -2,10 +2,9 @@
 //  UIImage+Orientation
 //  orlandoaleman.com
 //
-//  Created by Orlando Aleman Ortiz on 19/10/13.
-//  Copyright (c) 2013 Orlando Aleman Ortiz. All rights reserved.
+//  Created by Orlando Aleman Ortiz on 27/03/14.
+//  Copyright (c) 2014 orlandoaleman.com. All rights reserved.
 //
-
 
 #import "UIImage+Orientation.h"
 

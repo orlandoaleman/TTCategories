@@ -1,9 +1,9 @@
 //
 //  PFObject+Extras.m
-//  closett
+//  orlandoaleman.com
 //
-//  Created by Orlando Aleman Ortiz on 18/04/13.
-//  Copyright (c) 2013 Closett. All rights reserved.
+//  Created by Orlando Aleman Ortiz on 27/03/14.
+//  Copyright (c) 2014 orlandoaleman.com. All rights reserved.
 //
 
 #import "PFObject+Extras.h"
