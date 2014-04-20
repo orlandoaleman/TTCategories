@@ -16,4 +16,7 @@
 */
 - (CGRect)frameOfStatusBar;
 
++ (NSString *)nibName;
++ (UINib *)nib;
+
 @end

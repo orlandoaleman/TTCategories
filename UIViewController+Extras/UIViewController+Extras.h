@@ -13,4 +13,7 @@
 
 - (BOOL)beingPresented;
 
++ (NSString *)nibName;
++ (UINib *)nib;
+
 @end

@@ -8,4 +8,5 @@
 
 @interface NSString (Extras)
 - (NSString *)stringByRemovingCharactersOfString:(NSString *)characters;
++ (NSString *)randomStringWithMinLength:(NSUInteger)minChars maxChars:(NSUInteger)maxChars validChars:(NSString *)validChars;
 @end

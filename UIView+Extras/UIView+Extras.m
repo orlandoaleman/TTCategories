@@ -19,4 +19,15 @@
     return statusBarViewRect;
 }
 
++ (NSString *)nibName
+{
+    return NSStringFromClass([self class]);
+}
+
++ (UINib *)nib
+{
+    return [UINib nibWithNibName:[[self class] nibName] bundle:nil];
+}
+
+
 @end
