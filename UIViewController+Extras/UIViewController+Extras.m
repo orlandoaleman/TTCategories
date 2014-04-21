@@ -12,7 +12,7 @@
 
 @implementation UIViewController (Extras)
 
-- (BOOL)beingPresented
+- (BOOL)beingPresentedModally
 {
     return [self.navigationController.viewControllers objectAtIndex:0] == self;
 }
