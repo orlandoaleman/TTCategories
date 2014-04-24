@@ -50,9 +50,9 @@ assign:
 }
 
 
-
-+ (NSUInteger)indexOfObjectId:(NSString *)objectID inArray:(NSArray *)array
+- (NSUInteger)indexOfObjectId:(NSString *)objectID inArrayKey:(NSString *)key
 {
+    NSArray *array = self[key];
     for (NSUInteger i=0; i<array.count; i++) {
         if([[array[i] objectId] isEqualToString:objectID]) {
             return i;
@@ -62,5 +62,9 @@ assign:
 }
 
 
+- (BOOL)isEqualTo:(PFObject *)other
+{
+    return [self.objectId isEqualToString:other.objectId];
+}
 
 @end

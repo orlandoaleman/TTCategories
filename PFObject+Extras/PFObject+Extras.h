@@ -11,7 +11,6 @@
 @interface PFObject (Extras)
 
 - (BOOL)setValueIfDifferent:(id)value forKey:(NSString *)key;
-
-+ (NSUInteger)indexOfObjectId:(NSString *)objectID inArray:(NSArray *)array;
-
+- (NSUInteger)indexOfObjectId:(NSString *)objectID inArrayKey:(NSString *)key;
+- (BOOL)isEqualTo:(PFObject *)other;
 @end
