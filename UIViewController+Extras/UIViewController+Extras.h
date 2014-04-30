@@ -12,8 +12,9 @@
 @interface UIViewController (Extras)
 
 - (BOOL)beingPresentedModally;
-
+- (BOOL)isCurrentlyVisible;
 + (NSString *)nibName;
 + (UINib *)nib;
+
 
 @end

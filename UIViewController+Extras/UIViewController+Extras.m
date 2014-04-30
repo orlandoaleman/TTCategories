@@ -18,10 +18,17 @@
 }
 
 
+- (BOOL)isCurrentlyVisible
+{
+    return self.isViewLoaded && self.view.window != nil;
+}
+
+
 + (NSString *)nibName
 {
     return NSStringFromClass([self class]);
 }
+
 
 + (UINib *)nib
 {
