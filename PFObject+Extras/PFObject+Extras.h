@@ -6,6 +6,9 @@
 //  Copyright (c) 2014 orlandoaleman.com. All rights reserved.
 //
 
+#if defined(__has_include)
+#if __has_include(<Parse/Parse.h>)
+
 #import <Parse/Parse.h>
 
 @interface PFObject (Extras)
@@ -14,3 +17,6 @@
 - (NSUInteger)indexOfObjectId:(NSString *)objectID inArrayKey:(NSString *)key;
 - (BOOL)isEqualTo:(PFObject *)other;
 @end
+
+#endif
+#endif
