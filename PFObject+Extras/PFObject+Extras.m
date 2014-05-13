@@ -67,4 +67,16 @@ assign:
     return [self.objectId isEqualToString:other.objectId];
 }
 
+
+- (NSDictionary *)dictionary
+{
+    NSArray * allKeys = [self allKeys];
+    NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
+    for (NSString *key in allKeys) {
+        dict[key] = self[key];
+    }
+    return dict;
+}
+
+
 @end
