@@ -7,6 +7,7 @@
 //
 
 #import "NSArray+Extras.h"
+#import "NSDate+Extras.h"
 #import "NSMutableArray+Extras.h"
 #import "NSObject+Extras.h"
 #import "NSString+Extras.h"
