@@ -21,7 +21,7 @@
     id actualValue = self[key];
     
     if (!actualValue) {
-        [self setValue:value forKey:key];
+        [self setObject:value forKey:key];
         return YES;
     }
 
